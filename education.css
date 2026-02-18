@@ -1,0 +1,95 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+/* Heading */
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Table Styling */
+table {
+    width: 95%;
+    max-width: 950px;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* Table Header */
+th {
+    background: #2e59d9;
+    color: #ffffff;
+    font-size: 19px;
+    padding: 18px;
+    border: 2px solid #ffffff;
+}
+
+/* Table Data */
+td {
+    padding: 16px;
+    font-size: 17px;
+    color: #333;
+    border: 1px solid #cccccc;   /* 👈 Table Lines Added */
+}
+
+/* Header Border */
+th {
+    border: 1px solid #ffffff;
+}
+
+/* Alternate Row Color */
+tr:nth-child(even) {
+    background-color: #f4f6ff;
+}
+
+/* Hover Effect */
+tr:hover {
+    background-color: #e0e7ff;
+    transition: 0.3s ease;
+}
+
+/* Button Styling */
+a {
+    margin-top: 35px;
+    padding: 13px 35px;
+    background: #ffffff;
+    color: #2e59d9;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+a:hover {
+    background: #ffd43b;
+    color: #000;
+    transform: scale(1.08);
+}

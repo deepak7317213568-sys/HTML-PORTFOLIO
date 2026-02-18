@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top Heading Center */
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+/* Project Card Center */
+figure{
+    background: white;
+    width: 320px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: 0.4s;
+    margin: 60px auto;
+}
+
+figure:hover{
+    transform: translateY(-10px);
+}
+
+figure a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+figcaption{
+    margin-top: 10px;
+}
+
+/* Back to Home Bottom Center */
+body > a{
+    margin: 30px auto;      /* Center horizontally */
+    display: inline-block;  /* Full width remove */
+    padding: 10px 25px;
+    background: white;
+    color: #764ba2;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+body > a:hover{
+    background: yellow;
+    color: black;   
+}
